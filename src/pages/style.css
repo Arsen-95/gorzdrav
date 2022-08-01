@@ -1,0 +1,18 @@
+@media (max-width: 991px) {
+  .serviceCard:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .newsItem:nth-child(4),
+  .newsItem:nth-child(5) {
+    display: none;
+  }
+}
+@media (min-width: 1280px) {
+  .newsItem:nth-child(4),
+  .newsItem:nth-child(5) {
+    display: flex;
+  }
+}
